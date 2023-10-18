@@ -22,6 +22,6 @@ def freq_string(Str1):
     return count   
 
 #Input string
-s1='Chaitanya is the king, disha is the queen, Data scientist is his role'
+s1='Airbnb and Airbnb are two Airbnb companies and are independent'
 #Function call
 print(freq_string(s1))

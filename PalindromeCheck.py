@@ -2,9 +2,11 @@
 
 def palindrom_check(S1):
     S2=""
+    #Reverse the string
     for i in range(len(S1)-1, -1, -1):
         S2=S2+str(S1[i])
     
+    # Check if the original string is equal to the reversed string
     return S1 == S2
 
 #function call
